@@ -106,6 +106,7 @@ $directors=$result->fetch_all(1);
          <select name="id-film-update" id="id-film-update">
             <option value='[idfilm]'>[tytul]</option>
          </select>
+         
         <label for="title">Podaj tytul</label>
         <input type="text" name="title" id="title">
         <button type="submit">ok</button>
